@@ -162,6 +162,7 @@ label{
        width: 330px;
         height: 300px;
         border-radius: 10%;
+        margin-left: 10px;
     }
  body{
     display: flex;
