@@ -101,20 +101,15 @@ label{
  #header{
     background-image: url("https://images.unsplash.com/photo-1511300636408-a63a89df3482?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80");
     background-position: center;
-    width: 100%;
-    height: 300px;
-    border-radius: 50%;
- }
- #containerForQuates{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    
+    height: 300px;
+    border-radius: 30px;
  }
+
  #quates_motiv{
-    padding: 10px;
+    text-align: center;
     border: none;
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
@@ -128,13 +123,10 @@ label{
     color: #B83B5E;
     font-family: 'Poppins', sans-serif;
     background-color: #f8f8f8;
-   
     border-radius: 10px;
  }
  #next, #back{
-    padding: 10px;
-    width: 200px;
-    margin-top: 20px;
+    padding: 0px;
     background: none;
     border: none;
     
@@ -155,6 +147,44 @@ label{
  #labelTwo{
     margin-top: 10px;
  }
+
+ @media all and ( max-width: 500px){
+    h4{
+        font-size: 15px;
+    }
+    input{
+        margin-left: 5px;
+    }
+    #par{
+        padding: 10px;
+    }
+    #header{
+        
+        width: 330px;
+        height: 300px;
+        border-radius: 10%;
+        margin-right: 20px;
+ }
+ body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+ }
+ #form{
+    padding: 20px;
+ }
+ #next, #back{
+    padding: 10px;
+    width: 100px;
+    margin-top: 10px;
+    background: none;
+    border: none;
+}
+#formTwo{
+    display: flex;
+    flex-direction: column;
+  }
+}
  
 
     
